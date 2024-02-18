@@ -207,7 +207,7 @@ body {
   padding: 15px 35px;
   text-decoration: none;
   margin: 25px 0;
-  transition: background-color 0.7s ease;
+  transition: background-color 0.7s linear;
 }
 
 .pricing-button:hover,
@@ -225,7 +225,7 @@ body {
 .pricing-button.is-featured:focus {
   background-color: black;
   color: rgb(224, 26, 26);
-  transition: background-color 0.7s ease;
+  transition: background-color 0.7s linear;
 }
 
 
